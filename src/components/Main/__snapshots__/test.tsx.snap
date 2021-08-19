@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> it should render the header 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #06092b;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%;
+  line-height: 1.5;
+  padding: 3rem;
+  text-align: center;
+  width: 100%;
+}
+
+.c1 {
+  margin-bottom: 3rem;
+  max-width: 25rem;
+  width: 100%;
+}
+
+.c2 {
+  font-size: 3rem;
+}
+
+.c3 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 1rem;
+  max-width: 45rem;
+}
+
+.c4 {
+  margin-top: 2rem;
+  width: min(30rem,100%);
+}
+
+<main
+  class="c0"
+>
+  <img
+    alt="Boilerplate"
+    class="c1"
+    src="/img/logo.svg"
+  />
+  <h1
+    class="c2"
+  >
+    Boilerplate
+  </h1>
+  <h2
+    class="c3"
+  >
+    A boilerplate to work with TypeScript, ReactJS, NextJs and Styled Components
+  </h2>
+  <img
+    alt="Um desenvolvedor de frente para uma tela com códigos"
+    class="c4"
+    src="/img/hero-illustration.svg"
+  />
+</main>
+`;
